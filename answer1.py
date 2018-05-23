@@ -2,7 +2,7 @@
 
 new_list=[]
 choice='y'
-while choice=='y' || 'Y':
+while choice=='y':
 	element=input("Enter a element in the List: ")
 	new_list.append(element)
 	choice=input("Do you want to enter more? y/n: ")
