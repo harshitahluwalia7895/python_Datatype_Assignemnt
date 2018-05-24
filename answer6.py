@@ -26,6 +26,6 @@
 	print('After Insertion')
 	queue.append("Kartik")
 	print(queue)
-	print("poped element is "+queue.pop())                 
-	print("poped Element is "+queue.pop())                 
+	print("poped element is "+queue.popleft())                 
+	print("poped Element is "+queue.popleft())                 
 	print(queue)
